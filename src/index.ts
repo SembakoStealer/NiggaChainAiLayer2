@@ -35,8 +35,10 @@ function printPersonalData(data: PersonalData) {
 printPersonalData(personalData);
 
 function ageConversion(age: number) {
+    console.log(`Age in years: ${age}`);
+    console.log(`Age in months: ${age * 12}`);
+    console.log(`Age in weeks: ${age * 52}`);
     console.log(`Age in days: ${age * 365}`);
     console.log(`Age in hours: ${age * 8760}`);
     console.log(`Age in minutes: ${age * 525600}`);
-    console.log(`Age in seconds: ${age * 31536000}`);
 }
